@@ -1,0 +1,156 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding: 23px 0px 40px 0px;
+    /* background-color: red; */
+}
+
+header img {
+    margin: 0px 13px 0px 0px;
+}
+
+header div h1 {
+    font-size: 5vw;
+    font-weight: bolder;
+    margin: 14px 0px 0px 0px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    /* padding: 0px 0px 0px 250px; */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+main button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 54vw;
+    height: 48px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+main button img {
+    padding: 10px 4px 0px 10px;
+}
+
+main button input {
+    width: 550px;
+    height: 43px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 22px 0px 29px;
+}
+
+
+footer .bc {
+    background-color: white;
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .bc img {
+    margin: 5px;
+}
+
+footer .font {
+    margin: 7px;
+}
+
+footer .font h6 {
+    margin: 6px;
+    /* font-size: ; */
+    font-weight: lighter;
+}
+
+@media only screen and (max-width:700px) {
+
+    main button {
+        width: 80vw;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 32px 0px;
+
+
+    }
+
+    header img {
+        width: 14vw;
+        height: 6vh;
+    }
+
+    main button {
+        height: 37px;
+    }
+
+    main button input {
+        height: 33px;
+    }
+
+    main button img {
+        padding: 6px 4px 0px 10px;
+        height: 15px;
+    }
+
+    header {
+        padding: 23px 0px 28px 0px;
+    }
+
+    footer .logo {
+        width: 69px;
+        height: 116px;
+    }
+
+    header div h1 {
+        font-size: 7vw;
+        font-weight: bolder;
+        margin: 14px 0px 0px 0px;
+
+    }
+    footer .bc{
+        width: 78px;
+    }
+    footer .font{
+        font-size: small;
+    }
+main button {
+    height: 32px;
+    width: 72vw;
+}
+main button input{
+    height: 25px;
+}
+
+
+}
